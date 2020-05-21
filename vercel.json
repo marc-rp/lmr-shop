@@ -2,16 +2,14 @@
   "version": 2,
   "env": {
     "JWT_SECRET": "come-up-with-a-good-secret-here",
-    "CRYSTALLIZE_SECRET_TOKEN_ID": "@crystallize-access-token-id",
-    "CRYSTALLIZE_SECRET_TOKEN": "@crystallize-access-token-secret",
-    "STRIPE_SECRET_KEY": "@stripe-secret-key",
-    "KLARNA_USERNAME": "@klarna-username",
-    "KLARNA_PASSWORD": "@klarna-password"
+    "CRYSTALLIZE_SECRET_TOKEN_ID": "faf2c08065250e95ed5e",
+    "CRYSTALLIZE_SECRET_TOKEN": "3088ac1537f327126eb1ed0ff974a3618232aea5",
+    "STRIPE_SECRET_KEY": "sk_test_94dZOXSszP8K8AfkLJYX5BTf00a9xWAke2"
   },
   "build": {
     "env": {
-      "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": "@stripe-publishable-key",
-      "NEXT_PUBLIC_CRYSTALLIZE_TENANT_ID": "furniture"
+      "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_test_ss3IzXsDsISvw4lXrlPWT23300lRGMRf4R",
+      "NEXT_PUBLIC_CRYSTALLIZE_TENANT_ID": "lmr-shop"
     }
   }
 }
